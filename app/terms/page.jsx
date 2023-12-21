@@ -8,7 +8,7 @@ const TermsOfUse = () => {
 
       <div className="text-lg text-gray-700 dark:text-gray-600">
         <p className="mb-8">
-          By accessing and using [Your Website/Company Name] (the 'Website'),
+          By accessing and using [Your Website/Company Name] (the `Website`),
           you agree to comply with and be bound by the following terms and
           conditions of use. If you do not agree to these terms, please do not
           use the Website.
@@ -26,7 +26,7 @@ const TermsOfUse = () => {
           <strong>Disclaimer:</strong>
         </p>
         <p className="mb-8">
-          The content of the pages of this Website is provided 'as is' without
+          The content of the pages of this Website is provided `as is` without
           any warranties of any kind, whether express or implied. [Your
           Website/Company Name] disclaims all warranties to the fullest extent
           permitted by law.
