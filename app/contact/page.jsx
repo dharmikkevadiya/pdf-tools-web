@@ -33,6 +33,7 @@ const ContactUs = () => {
                   type="text"
                   id="name"
                   name="name"
+                  placeholder="Enter Your name"
                   className="mt-1 p-2 w-full border"
                   style={{ outline: 'none', border: '2px solid gray' }}
                 />
@@ -49,6 +50,7 @@ const ContactUs = () => {
                   type="email"
                   id="email"
                   name="email"
+                  placeholder="yourmail@example.com"
                   className="mt-1 p-2 w-full border"
                   style={{ outline: 'none', border: '2px solid gray' }}
                 />
@@ -64,6 +66,7 @@ const ContactUs = () => {
                 <textarea
                   id="message"
                   name="message"
+                  placeholder="Write message here"
                   rows="4"
                   className="mt-1 p-2 w-full border"
                   style={{ outline: 'none', border: '2px solid gray' }}

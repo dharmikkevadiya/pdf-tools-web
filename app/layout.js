@@ -14,11 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <AppRouterCacheProvider options={{ enableCssLayer: true }}>
-        <NextTopLoader color="#DEF2FF" height={2} showSpinner={false} />
-        <Navbar />
-        {children}
-      </AppRouterCacheProvider>
+      <body className={inter.className}>
+        <AppRouterCacheProvider options={{ enableCssLayer: true }}>
+          <NextTopLoader color="#DEF2FF" height={2} showSpinner={false} />
+          <Navbar />
+          {children}
+        </AppRouterCacheProvider>
+      </body>
       {/* <body className={inter.className}>{children}</body> */}
     </html>
   );

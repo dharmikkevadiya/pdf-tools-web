@@ -135,7 +135,7 @@ export default function Home() {
               height={140}
             />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 text-white">
             <h2 className="text-2xl font-bold mt-10">
               How to use PDF converter?
             </h2>
