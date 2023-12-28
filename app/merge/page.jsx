@@ -92,6 +92,7 @@ const Merge = () => {
                             flexDirection: 'column',
                             height: '100%',
                             boxShadow: '0px 2px 2px rgba(0, 0, 0, 0.4)',
+                            background: 'rgba(69, 90, 100, .2)',
                           }}
                         >
                           <PdfViewer
@@ -110,6 +111,7 @@ const Merge = () => {
                                 overflow: 'hidden',
                                 textOverflow: 'ellipsis',
                                 whiteSpace: 'nowrap',
+                                color: '#ccc',
                               }}
                             >
                               {file.name}

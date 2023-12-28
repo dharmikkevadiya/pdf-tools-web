@@ -83,19 +83,19 @@ export default function Home() {
               style={{ flex: '0 0 calc(33.33% - 1rem)', margin: '0.5rem' }}
               key={index}
             >
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <Image
-                  src={item.icon}
-                  width={60}
-                  height={50}
-                  alt={item.heading}
-                />
-                <Link href={item.page}>
+              <Link href={item.page}>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <Image
+                    src={item.icon}
+                    width={60}
+                    height={50}
+                    alt={item.heading}
+                  />
                   <h5 className="mb-2 p-6 ml-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {item.heading}
                   </h5>
-                </Link>
-              </div>
+                </div>
+              </Link>
               <p className="mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">
                 {item.description}
               </p>
