@@ -9,7 +9,7 @@ import {
   Card,
   CardContent,
 } from '@mui/material';
-import PdfViewer from '@/Components/PdfViewer';
+import PdfViewer from '../../components/PdfViewer';
 
 const Crop = () => {
   const [croppedPdfUrl, setCroppedPdfUrl] = useState();
