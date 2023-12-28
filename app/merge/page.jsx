@@ -11,7 +11,7 @@ import {
   CardContent,
 } from '@mui/material';
 import { IoIosAddCircle } from 'react-icons/io';
-import PdfViewer from '@/Components/PdfViewer';
+import PdfViewer from '../../components/PdfViewer';
 
 const Merge = () => {
   const [mergedPdfUrl, setMergedPdfUrl] = useState();
