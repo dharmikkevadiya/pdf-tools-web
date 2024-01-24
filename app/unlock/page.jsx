@@ -11,6 +11,15 @@ import {
 } from '@mui/material';
 import PdfViewer from '../../components/PdfViewer';
 
+// Unlock PDF Page Metadata
+export const unlockPdfMetadata = {
+  title: 'Unlock PDF - Remove Passwords and Restrictions from PDF Files',
+  description:
+    'Effortlessly unlock PDF files by removing passwords and restrictions. Our online PDF unlocking tool allows you to access and modify secured PDF documents with ease.',
+  keywords:
+    'unlock PDF, unblock PDF, remove PDF password, PDF restrictions removal, online PDF unlocking, access secured PDF',
+};
+
 const UnlockPDF = () => {
   const [unlockedPdfUrl, setUnlockedPdfUrl] = useState();
   const [file, setFile] = useState(null);

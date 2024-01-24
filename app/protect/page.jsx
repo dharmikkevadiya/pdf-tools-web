@@ -10,6 +10,14 @@ import {
   CardContent,
 } from '@mui/material';
 import PdfViewer from '../../components/PdfViewer';
+// Protect PDF Page Metadata
+export const protectPdfMetadata = {
+  title: 'Protect PDF - Secure Your Documents with Password Encryption',
+  description:
+    'Enhance the security of your PDF files by protecting them with password encryption. Our online PDF protection tool allows you to safeguard sensitive information and control access to your documents.',
+  keywords:
+    'protect PDF, secure PDF, PDF password protection, encrypt PDF, online PDF protection, password-protected PDF',
+};
 
 const Protect = () => {
   const [croppedPdfUrl, setCroppedPdfUrl] = useState();

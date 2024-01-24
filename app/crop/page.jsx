@@ -11,6 +11,14 @@ import {
 } from '@mui/material';
 import PdfViewer from '../../components/PdfViewer';
 
+export const cropPdfMetadata = {
+  title: 'Crop PDF - Trim and Remove Unwanted Margins Online',
+  description:
+    'Easily crop PDF pages online and remove unwanted margins. Our PDF cropping tool allows you to precisely trim your PDF documents for a cleaner and more professional look.',
+  keywords:
+    'crop PDF, trim PDF, remove margins, PDF cropping, online PDF cropper, crop PDF pages',
+};
+
 const Crop = () => {
   const [croppedPdfUrl, setCroppedPdfUrl] = useState();
   const [file, setFile] = useState(null);

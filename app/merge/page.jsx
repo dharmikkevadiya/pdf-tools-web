@@ -13,6 +13,14 @@ import {
 import { IoIosAddCircle } from 'react-icons/io';
 import PdfViewer from '../../components/PdfViewer';
 
+export const mergePdfMetadata = {
+  title: 'Merge PDF - Combine Multiple PDF Files Online',
+  description:
+    'Effortlessly merge and combine multiple PDF files into a single document with our online PDF merging tool. Simplify your PDF management.',
+  keywords:
+    'merge PDF, combine PDF, PDF merger, merge PDF online, merge multiple PDFs',
+};
+
 const Merge = () => {
   const [mergedPdfUrl, setMergedPdfUrl] = useState();
   const [files, setFiles] = useState(null);

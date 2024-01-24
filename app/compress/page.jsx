@@ -11,6 +11,14 @@ import {
 } from '@mui/material';
 import PdfViewer from '../../components/PdfViewer';
 
+export const compressPdfMetadata = {
+  title: 'Compress PDF - Reduce PDF File Size Online',
+  description:
+    'Efficiently compress PDF files online and reduce their file size without compromising quality. Our PDF compression tool makes your documents more manageable.',
+  keywords:
+    'compress PDF, reduce PDF file size, PDF compression, online PDF compressor, compress large PDF',
+};
+
 const CompressPDF = () => {
   const [compressedPdfUrl, setCompressedPdfUrl] = useState();
   const [file, setFile] = useState(null);

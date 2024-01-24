@@ -14,6 +14,14 @@ import jsPDF from 'jspdf';
 import Image from 'next/image';
 import { loadImage } from 'next/image';
 
+export const jpgToPdfConvertMetadata = {
+  title: 'Convert JPG to PDF - Online Image to PDF Converter',
+  description:
+    'Easily convert JPG images to PDF files with our online JPG to PDF converter. Fast and simple conversion for your image to PDF needs.',
+  keywords:
+    'JPG to PDF, image to PDF, convert JPG to PDF, online image to PDF converter, image conversion',
+};
+
 const JpgToPdf = () => {
   const [convertedPdfUrl, setConvertedPdfUrl] = useState();
   const [imageFiles, setImageFiles] = useState([]);
